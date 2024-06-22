@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.jokeapp{
+    width: 400px;
+    min-height: 250px;
+    background-color: rgb(139, 114, 57);
+    border-radius: 15px;
+    padding: 15px;
+}
+.jokeapp h1{
+    
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+.jokeapp button{
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.jokeapp button:hover{
+    background-color: grey;
+
+}
